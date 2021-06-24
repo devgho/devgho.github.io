@@ -4,7 +4,7 @@ date: 2021-06-24 21:42:03
 tags: 
 	- life
 categories:
-	- dairy
+	- diary
 ---
 ## I fail in test  
 because of:  
