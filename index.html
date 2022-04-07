@@ -826,7 +826,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2022-04-07 12:08:06 / Modified: 16:35:04" itemprop="dateCreated datePublished" datetime="2022-04-07T12:08:06+08:00">2022-04-07</time>
+              <time title="Created: 2022-04-07 12:08:06 / Modified: 20:52:15" itemprop="dateCreated datePublished" datetime="2022-04-07T12:08:06+08:00">2022-04-07</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -865,18 +865,25 @@
       
           <h3 id="主要记一些理解性的东西"><a href="#主要记一些理解性的东西" class="headerlink" title="主要记一些理解性的东西"></a>主要记一些理解性的东西</h3><ul>
 <li>类的静态成员属于类而不是属于实例化之后的对象  </li>
+<li>单例模式中一般用到静态成员</li>
 <li>TS没有多继承但可以用接口实现类似多继承  </li>
 <li>Interface的另一种理解:协议，implement interface 实施协议  </li>
 <li>多个实例化对象就叫多态  </li>
-<li>多种类型尽量用泛型不要用any</li>
+<li>多种类型尽量用泛型不要用any  </li>
+<li>正则表达式分为原义文本字符、元字符、限定符</li>
 </ul>
-<p><strong>关于字典、对象、JSON</strong>  </p>
-<blockquote>
+<h3 id="关于字典、对象、JSON"><a href="#关于字典、对象、JSON" class="headerlink" title="关于字典、对象、JSON"></a>关于字典、对象、JSON</h3><blockquote>
 <p>区别挺大的，只是很巧在js中用法看起来好想差不多，都是用点连接，其实这三个概念相差甚远  </p>
 </blockquote>
-<h3 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h3><p><code>JSON是和跨语言、序列化、和反序列化相关的，且对数据的类型是有要求的，比如function类型就没法支持</code></p>
-<h3 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h3><p><code>字典(dict)是一种通用的和排序无关的组织复杂数据结构的数据类型，有的语言叫散列表、hash对象</code></p>
-<h3 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h3><p><code>而说到对象，一般就是和实例化、类相关的,new一个类就可以得到一个对象,有些对象则是由宿主环境直接提供了，比如window对象,window下的screen对象,dom节点对象等的。提到对象应该想到的是属性和方法，继承关系什么的。和序列化啊，字典啊没什么直接关系。</code></p>
+<h4 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h4><p><code>JSON是和跨语言、序列化、和反序列化相关的，且对数据的类型是有要求的，比如function类型就没法支持</code></p>
+<h4 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h4><p><code>字典(dict)是一种通用的和排序无关的组织复杂数据结构的数据类型，有的语言叫散列表、hash对象</code></p>
+<h4 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h4><p><code>而说到对象，一般就是和实例化、类相关的,new一个类就可以得到一个对象,有些对象则是由宿主环境直接提供了，比如window对象,window下的screen对象,dom节点对象等的。提到对象应该想到的是属性和方法，继承关系什么的。和序列化啊，字典啊没什么直接关系。</code></p>
+<p>参考:  </p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/6d6398b9208b">石虎123.iOS ~ json、字典和对象的区别</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14i4y1o7YF?p=17&spm_id_from=pageDriver">Gmaer飞羽.Cocos Creator教程</a></li>
+<li>[廖雪峰.TypeScript深入理解]</li>
+</ol>
 
       
     </div>
